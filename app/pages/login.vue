@@ -1,7 +1,13 @@
 <template>
   <div class="min-h-screen flex items-center justify-center bg-gray-100">
     <div class="bg-white shadow-lg rounded-xl p-8 w-full max-w-md">
-      <h1 class="text-2xl font-bold text-center mb-6">Login</h1>
+      <h1 class="text-2xl font-bold text-center mb-4">Login</h1>
+
+      <div class="bg-gray-100 border rounded-md p-3 mb-5 text-sm">
+        <p class="font-semibold mb-1">Demo Credentials</p>
+        <p>Email: <span class="font-medium">naveen@test.com</span></p>
+        <p>Password: <span class="font-medium">123456</span></p>
+      </div>
 
       <form @submit.prevent="handleLogin" class="space-y-5">
         <div class="flex flex-col">
